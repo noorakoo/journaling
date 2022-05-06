@@ -1,0 +1,35 @@
+:root {
+    --blueish-white: rgb(234, 241, 250);
+    --light-blue: rgb(134, 191, 218);
+    --dark-blue: rgb(0, 55, 172);
+}
+
+body {
+    font-family: Josefin Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+section {
+    padding: 30px;
+    border: outset 5px var(--light-blue);
+    border-radius: 20px;
+    margin: 30px;
+    background-color: var(--blueish-white);
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: var(--dark-blue);
+    font-size: 30px;
+}
+
+ul {
+    font-family: Josefin Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: var(--dark-blue);
+    margin: 0 auto;
+    padding: 30px;
+}

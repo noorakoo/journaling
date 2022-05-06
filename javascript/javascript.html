@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style_javascript.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <ul>
+            <li><a href="#currency">Currency exchange</a></li>
+            <li><a href="#speedRadar">Speed radar</a></li>
+            <li><a href="#watchedMovies">Watched movies</a></li>
+            <li><a href="#apartment">Realtor's apartment guide</a></li>
+            <br>
+            <li><a href="./javascript_train/javascript_train.html" target="_blank">Train tickets (new window)</a></li>
+            <li><a href="./javascript_ball/javascript_ball.html" target="_blank">Move the ball (new window)</a></li>
+            <li><a href="./javascript_theatre/javascript_theatre.html" target="_blank">Theatre seating (new window)</a></li>
+        </ul>
+
+        <section>
+            <h1 id="currency">Currency exchange</h1>
+            Sum: <input id="sum">
+            <br><br>
+            <button type="button" onclick="eurToUsd();">EUR -> USD</button>
+            <button type="button" onclick="usdToEur();">USD -> EUR</button>
+            <br><br>
+            <div id="printArea"></div>
+            <script src="script_javascript.js"></script>
+        </section>
+
+        <section>
+            <h1 id="speedRadar">Speed radar</h1>
+            Speed limit: <br>
+            <input id="speedLimit">
+            <br><br>
+            Car's speed: <br>
+            <input id="carSpeed">
+            <br><br>
+            <button type="button" onclick="examine();">Examine</button>
+            <br><br>
+            <h2 id="printAreaSpeedRadar"></h2>
+    
+            <script src="./script_javascript.js"></script>
+        </section>
+
+        <section>
+            <h1 id="watchedMovies">Watched movies</h1>
+            <input placeholder="Name of the movie..." id="watched">
+            <br><br>
+            <button type="button" onclick="add();">Add</button>
+            <button type="button" onclick="print();">Print all</button>
+            <button type="button" onclick="search();">Search</button>
+            <br><br>
+            <div id="printAreaMovies"></div>
+    
+            <script src="./script_javascript.js"></script>
+        </section>
+
+        <section>
+            <h1 id="apartment">Realtor's apartment guide</h1>
+            Add the apartment's data: 
+            <br>
+            <input id="idNumber" placeholder="ID number...">
+            <input id="address" placeholder="Address...">
+            <input id="price" placeholder="Price...">
+            <input id="squareMetres" placeholder="Square metres...">
+            <button type="button" onclick="addApartment();">Add</button>
+            <br><br>
+            Search with ID number: 
+            <br>
+            <input id="searchApartment"><button type="button" onclick="searchApartment();">Search</button>
+            <br><br>
+            <div id="printAreaApartment"></div>
+    
+            <script src="./script_javascript.js"></script>
+        </section>
+    </body>
+</html>

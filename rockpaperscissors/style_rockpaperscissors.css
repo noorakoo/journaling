@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    display: none;
+    height: 30px;
+    width: 290px;
+    margin-left: 10px;
+}
+
+a:hover + p {
+    display: block;
+}
+
+.hint {
+    margin-top: 100px;
+}

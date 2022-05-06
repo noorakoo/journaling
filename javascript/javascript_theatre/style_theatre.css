@@ -1,0 +1,11 @@
+.seat {
+    border-collapse: separate;
+  }
+
+  table td {
+    border: outset 3px;
+    padding: 4px;
+    background-color: rgb(17, 182, 17);
+    border-radius: 6px;
+  }
+

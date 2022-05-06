@@ -1,0 +1,32 @@
+:root {
+    --blueish-white: rgb(234, 241, 250);
+    --light-blue: rgb(134, 191, 218);
+    --bright-blue: rgb(45, 102, 224);
+}
+
+body {
+    font-family: Josefin Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 30px;
+    width: fit-content;
+    text-align: center;
+    background-image: url("photos/background_photo.PNG");
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    padding: 30px;
+    border: outset 5px var(--light-blue);
+    border-radius: 20px;
+    margin: 30px;
+    background-color: var(--blueish-white);
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: var(--bright-blue);
+    font-size: 40px;
+}
+

@@ -1,0 +1,30 @@
+:root {
+    --primary-white: rgb(250, 249, 249);
+    --dark-cyan-blue: rgb(7, 50, 66);
+    --off-cyan-black: rgb(4, 29, 39);
+}
+
+section {
+    border: 8px outset var(--dark-cyan-blue);
+    border-radius: 50%;
+    text-align: center;
+    padding: 120px;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    background-color: var(--off-cyan-black);
+    color: var(--primary-white);
+    opacity: 70%;
+    align-content: center;
+}
+
+#printArea {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
