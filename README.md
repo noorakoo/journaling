@@ -1,3 +1,3 @@
 # journaling
 
-Exercises with JavaScript
+Exercises and small games with JavaScript
